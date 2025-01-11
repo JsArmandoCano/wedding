@@ -10,8 +10,8 @@ const Invite = () => {
     const [invited, setInvited] = useState(null);
 
     useEffect(() => {
-        const pathname = window.location.pathname;
-        const paramValue = pathname.split('/').pop();
+        const pathname = new URLSearchParams(window.location.search);
+        const paramValue = pathname.get('name');
 
         if(paramValue!==undefined) {
             const guess = data.find(inv => inv.url === paramValue);
