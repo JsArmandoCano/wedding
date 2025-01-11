@@ -113,3 +113,17 @@
         background-position: 0 10%;
     } 
 }
+
+@media (max-width: 350px) {
+    .outfit .info {
+        padding: 60px 10px 10px 10px;
+    }
+
+    .outfit .info h4 {
+        font-size: 35px;
+    }
+
+    .outfit .info h5 {
+        font-size: 42px;
+    }
+}

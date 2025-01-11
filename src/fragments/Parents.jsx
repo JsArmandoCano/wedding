@@ -11,7 +11,7 @@ const Parents = () => {
             </div>
             <div className="info">
                 <div className="thanks">
-                    <p className="text">CON LA <span>Bendición</span> DE NUESTROS PADRES</p>
+                    <p className="text">CON LA <span>Bendición</span> DE DIOS y NUESTROS PADRES</p>
 
                     <div data-aos="fade-up">
                         <p className="type">Padres del novio</p>

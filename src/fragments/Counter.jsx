@@ -44,6 +44,7 @@ const Counter = () => {
             <div className="content__count">
                 <h4>¡Nos Casamos!</h4>
                 <span>Sabado 16 de Agosto del 2025</span>
+                <h6>3:00 PM</h6>
 
                 <div className="count">
                     <div data-aos="fade-up">
