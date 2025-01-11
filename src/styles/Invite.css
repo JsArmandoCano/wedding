@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap');
+
+.invite {
+    width: 100%;
+    height: 600px;
+    background-color: #BEA17B;
+    padding: 30px;
+}
+
+.invite .content_inv {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.invite .content_inv h4 {
+    text-align: center;
+    font-size: 22px;
+    color: #BEA17B;
+    font-family: "Borel", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.invite .content_inv h5 {
+    font-size: 38px;
+    color: #BEA17B;
+    text-align: center;
+    font-family: "Cookie", serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.invite .content_inv .number {
+    font-size: 120px;
+    color: #BEA17B;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.invite .content_inv .text {
+    font-size: 26px;
+    text-align: center;
+    color: #BEA17B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.invite .content_inv img {
+    width: 120px;
+    margin-top: 30px;
+}
+
+.invite .content_inv .table {
+    font-size: 26px;
+    text-align: center;
+    color: #BEA17B;
+}
+
+.invite .content_inv h6 {
+    font-size: 18px;
+    text-align: center;
+    color: #BEA17B;
+    font-family: "Gayathri", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media (min-width: 786px) {
+    .invite {
+        height: 600px;
+        padding: 30px 150px;
+    }
+    
+    .invite .content_inv h4 {
+        font-size: 30px;
+    }
+    
+    .invite .content_inv h5 {
+        font-size: 46px;
+    }
+    
+    .invite .content_inv .number {
+        font-size: 130px;
+    }
+    
+    .invite .content_inv .text {
+        font-size: 34px;
+    }
+    
+    .invite .content_inv img {
+        width: 130px;
+        margin-top: 20px;
+    }
+    
+    .invite .content_inv .table {
+        font-size: 34px;
+    }
+    
+    .invite .content_inv h6 {
+        font-size: 24px;
+    }
+}

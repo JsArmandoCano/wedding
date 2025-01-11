@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Tangerine:wght@400;700&display=swap');
+
+.counter {
+    width: 100%;
+    height: 600px;
+    background-image: url(../assets/10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position: 0 0;
+    display: flex;
+}
+
+.counter .content__count {
+    width: 100%;
+    height: 45%;
+    background-color: #fff;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    align-self: flex-end;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.counter .content__count h4 {
+    font-size: 55px;
+    font-family: "Tangerine", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #BEA17B;
+}
+
+.counter .content__count span {
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: "Cookie", serif;
+    font-style: normal;
+}
+
+.counter .content__count .count {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.counter .content__count .count div {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #BEA17B;
+    margin: 0 10px;
+    color: #BEA17B;
+    border-radius: 10px;
+}
+
+.counter .content__count .count div .number {
+    font-size: 28px;
+}
+
+@media (min-width: 786px) {
+    .counter {
+        background-image: url(../assets/5.jpg);
+        height: 800px;
+        background-size: 100%;
+        background-position: 0 95%; 
+    } 
+
+    .counter .content__count h4 {
+        font-size: 75px;
+    }
+    
+    .counter .content__count span {
+        font-size: 50px;
+    }
+
+    .counter .content__count .count div {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .counter .content__count .count div .number {
+        font-size: 38px;
+    }
+    
+    .counter .content__count .count div .time {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,21 @@
+.phrase {
+    width: 100%;
+    background-color: #BEA17B;
+    padding: 20px;
+}
+
+.phrase div {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (min-width: 786px) {
+    .phrase {
+        padding: 30px;
+    }
+
+    .phrase div {
+        font-size: 30px;
+    }
+}

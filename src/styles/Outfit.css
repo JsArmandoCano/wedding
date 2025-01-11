@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+.outfit {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: #BEA17B;
+    padding: 20px;
+    display: flex;
+}
+
+.outfit .info {
+    width: 100%;
+    height: 55%;
+    background-color: #fff;
+    align-self: flex-end;
+    border-radius: 10px;
+    padding: 50px 10px 10px 10px;
+}
+
+.outfit .info h4 {
+    font-size: 45px;
+    color: #BEA17B;
+    text-align: center;
+    font-family: "Rouge Script", serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.outfit .info h5 {
+    font-size: 50px;
+    color: #BEA17B;
+    text-align: center;
+    font-family: "Tangerine", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.outfit .info .logos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.outfit .info .logos img {
+    width: 50px;
+}
+
+.outfit .info .logos img:nth-child(1) {
+    margin-right: 15px;
+}
+
+.outfit .img {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 50%;
+    border-radius: 10px;
+    background-image: url(../assets/17.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 15%;
+}
+
+@media (min-width: 786px) {
+    .outfit {
+        height: 500px;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    
+    .outfit .info {
+        width: 59%;
+        height: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .outfit .info h4 {
+        font-size: 75px;
+    }
+    
+    .outfit .info h5 {
+        font-size: 85px;
+    }
+    
+    .outfit .info .logos {
+        margin-top: 5px;
+    }
+    
+    .outfit .info .logos img {
+        width: 70px;
+    }
+    
+    .outfit .info .logos img:nth-child(1) {
+        margin-right: 15px;
+    }
+    
+    .outfit .img {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        width: 39%;
+        height: 100%;
+        background-position: 0 10%;
+    } 
+}

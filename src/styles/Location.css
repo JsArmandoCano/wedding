@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+.location {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+}
+
+.location .img {
+    width: 100%;
+    height: 280px;
+    border: 10px solid #fff;
+}
+
+.location .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.location .direction {
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location .direction h3 {
+    color: #BEA17B;
+    font-size: 28px;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.location .direction > p {
+    text-align: center;
+    color: #BEA17B;
+    font-size: 20px;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.location .direction .btn_maps {
+    width: fit-content;
+    border: 2px solid #BEA17B;
+    margin-top: 20px;
+    padding: 10px 25px;
+}
+
+.location .direction .btn_maps a {
+    color: #BEA17B;
+    font-size: 18px;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media (min-width: 786px) {
+    .location {
+        margin-top: 30px;
+        display: flex;
+    }
+    
+    .location .img {
+        height: 100%;
+        border: 20px solid #fff;
+    }
+    
+    .location .img img {
+        object-fit: fill;
+    }
+        
+    .location .direction {
+        height: 100%;
+        justify-content: center;
+    }
+
+    .location .direction h3 {
+        font-size: 42px;
+    }
+    
+    .location .direction > p {
+        font-size: 35px;
+    }
+        
+    .location .direction .btn_maps a {
+        font-size: 24px;
+    }
+}

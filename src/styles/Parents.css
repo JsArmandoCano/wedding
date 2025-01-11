@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+
+.parents {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+.parents .img {
+    width: 100%;
+    height: 40%;
+}
+
+.parents .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.parents .info {
+    width: 100%;
+    height: 60%;
+    background-color: #BEA17B;
+}
+
+.parents .info .thanks {
+    position: absolute;
+    width: 85%;
+    height: 60%;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    background-color: #fff;
+    padding: 15px 10px 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.parents .info .thanks .text {
+    text-align: center;
+    color: #BEA17B;
+    font-size: 24px;
+}
+
+.parents .info .thanks .text span {
+    font-family: "Rouge Script", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.parents .info .thanks div .type {
+    text-align: center;
+    color: #BEA17B;
+    font-family: "Rouge Script", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.parents .info .thanks div .name {
+    text-align: center;
+    color: #BEA17B;
+    font-size: 25px;
+}
+
+@media (min-width: 786px) {
+    .parents {
+        height: 500px;
+        flex-direction: row-reverse;
+        margin-bottom: 40px;
+    }
+    
+    .parents .img {
+        width: 50%;
+        height: 100%;
+    }
+        
+    .parents .info {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .parents .info .thanks {
+        position: relative;
+        width: 80%;
+        height: 80%;
+        bottom: 0;
+        left: 0;
+        transform: none;
+        padding: 15px 10px 30px 10px;
+    }
+    
+    .parents .info .thanks .text {
+        font-size: 28px;
+    }
+    
+    .parents .info .thanks .text span {
+        font-size: 44px;
+    }
+    
+    .parents .info .thanks div .type {
+        font-size: 38px;
+    }
+    
+    .parents .info .thanks div .name {
+        font-size: 28px;
+    }
+}
