@@ -10,6 +10,7 @@ import Parents from "./fragments/Parents"
 import Phrase from "./fragments/Phrase"
 import Reception from "./fragments/Reception"
 import Sentence from "./fragments/Sentence"
+import Music from './fragments/Music';
 // Aos Scroll
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -31,6 +32,7 @@ function App() {
             <Gift />
             <Outfit />
             <Sentence />
+            <Music />
         </>
     )
 }
