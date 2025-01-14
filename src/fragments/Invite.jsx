@@ -31,8 +31,8 @@ const Invite = () => {
                 <img src={Icon} alt="Table" />
                 <p className="table">No. Mesa: {invited?.table}</p>
 
-                <h6 style={{ marginTop: "20px" }}>Gracias por confirmar tu asistencia</h6>
-                <h6 style={{ fontWeight: "200" }}>Favor de presentar este código en la entrada del evento</h6>
+                <h6 style={{ marginTop: "20px" }}>Gracias por confirmar su asistencia</h6>
+                <h6 style={{ fontWeight: "200" }}>Favor de presentar esta invitación en la entrada del evento</h6>
             </div>
         </div>
     )
