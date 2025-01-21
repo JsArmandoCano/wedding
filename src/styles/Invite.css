@@ -4,7 +4,7 @@
 
 .invite {
     width: 100%;
-    height: 600px;
+    height: 620px;
     background-color: #BEA17B;
     padding: 30px;
 }
@@ -71,9 +71,20 @@
     font-style: normal;
 }
 
+.invite .content_inv a {
+    margin-top: 10px;
+    padding: 7px 20px;
+    color: #BEA17B;
+    border: 1.5px solid #BEA17B;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
 @media (min-width: 786px) {
     .invite {
-        height: 600px;
+        height: 660px;
         padding: 30px 150px;
     }
     
@@ -104,5 +115,10 @@
     
     .invite .content_inv h6 {
         font-size: 24px;
+    }
+
+    .invite .content_inv a {
+        padding: 7px 20px;
+        font-size: 20px;
     }
 }

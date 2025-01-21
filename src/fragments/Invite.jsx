@@ -33,6 +33,8 @@ const Invite = () => {
 
                 <h6 style={{ marginTop: "20px" }}>Gracias por confirmar su asistencia</h6>
                 <h6 style={{ fontWeight: "200" }}>Favor de presentar esta invitación en la entrada del evento</h6>
+
+                <a href="https://www.jotform.com/form/250200445116845" target="_blank">Confirmar</a>
             </div>
         </div>
     )
