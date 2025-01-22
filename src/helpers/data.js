@@ -16,7 +16,7 @@ const data = [
     { id: 14, url: 'LugoMeza', invited: 'Familia Lugo Meza', tickets: '4', table: '11' },
     { id: 15, url: 'RosaMeza', invited: 'Tía Rosa Meza', tickets: '2', table: '11' },
     { id: 16, url: 'MargaritaMeza', invited: 'Tía Margarita Meza', tickets: '2', table: '11' },
-    { id: 17, url: 'MaryMeza', invited: 'Tía Mary Meza', tickets: '4', table: '3' },
+    { id: 17, url: 'MaryMeza', invited: 'Tía Mary Meza', tickets: '3', table: '3' },
     { id: 18, url: 'KarlaCano', invited: 'Karla Cano', tickets: '3', table: '19' },
     { id: 19, url: 'EnriqueOrtega', invited: 'Hno. Enrique Ortega', tickets: '2', table: '7' },
     { id: 20, url: 'DavidSilva', invited: 'Hno. David Silva', tickets: '1', table: '9' },
@@ -57,6 +57,7 @@ const data = [
     { id: 54, url: 'GiovanniPerea', invited: 'Giovanni Perea', tickets: '1', table: '21' },
     { id: 55, url: 'GustavoPicazo', invited: 'Gustavo Picazo', tickets: '2', table: '21' },
     { id: 56, url: 'BrunoRomán', invited: 'Bruno Román', tickets: '1', table: '21' },
+    { id: 76, url: 'Pati', invited: 'Patricia Veras', tickets: '1', table: '3' },
     
     // Novia
     { id: 57, url: 'BarajasContreras', invited: 'Familia Barajas Contreras', tickets: '2', table: '6' },
