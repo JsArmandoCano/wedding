@@ -81,10 +81,10 @@ const data = [
     { id: 74, url: 'CarmenMejia', invited: 'Hna. Carmen Mejía', tickets: '2', table: '?' },
     { id: 75, url: 'AngelReyes', invited: 'Hno. Angel Reyes', tickets: '4', table: '?' },
     { id: 76, url: 'HnoNemesio', invited: 'Hno. Nemesio', tickets: '2', table: '12' },
-    { id: 77, url: 'HnaMagda', invited: 'Hna. Magda', tickets: '3', table: '8' },
-    { id: 78, url: 'HnaClaudia', invited: 'Hna. Claudia', tickets: '7', table: '8' },
-    { id: 79, url: 'HnaDalila', invited: 'Hna. Dalila', tickets: '3', table: '6' },
-    { id: 80, url: 'HnaLupita', invited: 'Hna. Lupita', tickets: '2', table: '6' },
+    { id: 77, url: 'HnaMagda', invited: 'Hna. Magda', tickets: '3', table: '16' },
+    { id: 78, url: 'HnaClaudia', invited: 'Hna. Claudia', tickets: '7', table: '16' },
+    { id: 79, url: 'HnaDalila', invited: 'Hna. Dalila', tickets: '3', table: '16' },
+    { id: 80, url: 'HnaLupita', invited: 'Hna. Lupita', tickets: '2', table: '18' },
     { id: 81, url: 'HnoHiginio', invited: 'Hno. Higinio', tickets: '3', table: '12' },
     { id: 82, url: 'PastorRicardo', invited: 'Pastor Ricardo', tickets: '3', table: '12' },
     { id: 83, url: 'HnoRicardoFabela', invited: 'Hno. Ricardo Fabela', tickets: '2', table: '14' },
@@ -93,6 +93,11 @@ const data = [
     { id: 86, url: 'MisaelMarlen', invited: 'Misael y Marlen', tickets: '2', table: '20' },
     { id: 87, url: 'Felipe', invited: 'Felipe', tickets: '1', table: '20' },
     { id: 88, url: 'Rutits', invited: 'Rutits', tickets: '1', table: '20' },
+    { id: 89, url: 'RayMundo', invited: 'Ray Gonzalez', tickets: '3', table: '6' },
+    { id: 90, url: 'Graciela', invited: 'Graciela Diaz', tickets: '6', table: '8' },
+    { id: 91, url: 'Cami', invited: 'Cami', tickets: '3', table: '20' },
+    { id: 92, url: 'EncarnacionFonseca', invited: 'Encarnación Fonseca', tickets: '4', table: '30' },
+    { id: 93, url: 'BarronEncarnacion', invited: 'Barrón Encarnación', tickets: '2', table: '30' },
 ];
 
 export default data;
