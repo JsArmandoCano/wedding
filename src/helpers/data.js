@@ -59,6 +59,7 @@ const data = [
     { id: 58, url: 'JuanCarlos', invited: 'Juan Carlos', tickets: '1', table: '3' },
     { id: 59, url: 'TiaJamiz', invited: 'Tia Jamiz', tickets: '3', table: '25' },
     { id: 60, url: 'LuzDelCarmen', invited: 'Luz Del Carmen', tickets: '3', table: '3' },
+    { id: 110, url: 'HnaCarmen', invited: 'Hna. Carmen Silva', tickets: '2', table: '25' },
     
     // Novia
     { id: 61, url: 'DiazGonzales', invited: 'Familia Díaz González', tickets: '3', table: '2' },
