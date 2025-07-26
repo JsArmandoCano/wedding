@@ -104,6 +104,7 @@ const data = [
     { id: 100, url: 'PerezMixtega', invited: 'Familia Pérez Mixtega', tickets: '5', table: '30' },
     { id: 101, url: 'Kimi', invited: 'Kimi', tickets: '4', table: '30' },
     { id: 102, url: 'TiaLupe', invited: 'Tia Lupe', tickets: '5', table: '4' },
+    { id: 103, url: 'LeonelCampos', invited: 'Hno. Leonel Campos', tickets: '3', table: '18' },
 ];
 
 export default data;
