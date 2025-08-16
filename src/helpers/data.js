@@ -31,7 +31,7 @@ const data = [
     { id: 30, url: 'RodriguezFlores', invited: 'Familia Rodríguez Flores', tickets: '3', table: '9' },
     { id: 31, url: 'PatyMonroy', invited: 'Hna. Paty Monroy', tickets: '2', table: '9' },
     { id: 32, url: 'GabyAbarca', invited: 'Gaby Abarca Monroy', tickets: '2', table: '9' },
-    { id: 33, url: 'ElizabethMonroy', invited: 'Elizabeth Monroy', tickets: '2', table: '9' },
+    { id: 33, url: 'ElizabethMonroy', invited: 'Elizabeth Monroy', tickets: '3', table: '9' },
     { id: 34, url: 'CarlosSora', invited: 'Hnos. Carlos y Sora', tickets: '2', table: '7' },
     { id: 35, url: 'MendozaGalvez', invited: 'Familia Mendoza Gálvez', tickets: '2', table: '13' },
     { id: 36, url: 'AlexisMunguia', invited: 'Alexis Munguía', tickets: '1', table: '23' },
